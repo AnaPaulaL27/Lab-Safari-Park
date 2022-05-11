@@ -72,7 +72,7 @@ INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (2, 4, 'Friday')
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 3, 'Saturday');
 
 
---MVP QUERIES ------------------------------------------------------------------------------------------------------------------------------
+--MVP QUERIES -------------------------------------------------------------------------------------------------------------------------------
 
 --1. Find the names of the animals in a given enclosure: 
 
