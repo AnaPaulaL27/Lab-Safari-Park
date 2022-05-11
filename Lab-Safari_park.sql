@@ -149,7 +149,7 @@ WHERE enclosures.id IN (SELECT animals.enclosure_id FROM animals WHERE animals.n
 
 --Note:
 
--- he syntax for the IN condition in SQL is:
+-- The syntax for the IN condition in SQL is:
 
 -- expression IN (value1, value2, .... value_n);
 -- OR
