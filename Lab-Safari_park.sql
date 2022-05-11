@@ -1,7 +1,7 @@
-DROP TABLE assignments;
-DROP TABLE animals;
-DROP TABLE enclosures;
-DROP TABLE employees;
+DROP TABLE IF EXISTS assignments;
+DROP TABLE IF EXISTS animals;
+DROP TABLE IF EXISTS enclosures;
+DROP TABLE IF EXISTS employees;
 
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
