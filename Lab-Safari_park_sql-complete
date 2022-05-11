@@ -72,7 +72,7 @@ INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (2, 4, 'Friday')
 INSERT INTO assignments (employee_id, enclosure_id, day) VALUES (5, 3, 'Saturday');
 
 
---MVP QUEERIES -----------------------------------------------------------------------------------------------------------------------------
+--MVP QUERIES -----------------------------------------------------------------------------------------------------------------------------
 
 --1. Find the names of the animals in a given enclosure: 
 
@@ -101,7 +101,7 @@ INNER JOIN enclosures
 ON enclosures.id = assignments.enclosure_id
 WHERE enclosures.id = 1;
 
---EXTENSIONS QUEERIES -----------------------------------------------------------------------------------------------------------------------------
+--EXTENSIONS QUERIES -----------------------------------------------------------------------------------------------------------------------------
 
 --1. The names of staff working in enclosures which are closed for maintenance
 
