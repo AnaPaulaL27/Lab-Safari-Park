@@ -99,7 +99,7 @@ INNER JOIN assignments
 ON employees.id = assignments.employee_id
 INNER JOIN enclosures
 ON enclosures.id = assignments.enclosure_id
-WHERE enclosures.id = 1;
+WHERE enclosures.id = 4;
 
 --EXTENSIONS QUERIES -----------------------------------------------------------------------------------------------------------------------------
 
