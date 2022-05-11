@@ -88,7 +88,7 @@ SELECT animals.name, enclosures.name
 FROM animals
 INNER JOIN enclosures
 ON enclosures.id = animals.enclosure_id
-WHERE  enclosures.id= 1;
+WHERE  enclosures.id= 4;
 
 
 --2. Find the names of the employees working in a given enclosure: 
@@ -99,7 +99,7 @@ INNER JOIN assignments
 ON employees.id = assignments.employee_id
 INNER JOIN enclosures
 ON enclosures.id = assignments.enclosure_id
-WHERE enclosures.id = 4;
+WHERE enclosures.id = 1;
 
 --EXTENSIONS QUERIES -----------------------------------------------------------------------------------------------------------------------------
 
